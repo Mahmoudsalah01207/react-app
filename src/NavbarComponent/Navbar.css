@@ -1,0 +1,226 @@
+.navbar {
+  border: 2px solid rgba(240, 248, 255, 0.178);
+  background-color: transparent;
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  border-radius: 30px;
+  backdrop-filter: blur(10px);
+}
+nav {
+  width: 20%;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Align all icons vertically */
+  width: 80%;
+  margin: auto;
+}
+
+.nav-link, .navbar-brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: white;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.active {
+  background-color: #5b9add !important; /* Background color for active state */
+  transform: scale(1.1); /* Slightly enlarge the active icon */
+  color: white !important;
+}
+
+.home-icon {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 570px) {
+  nav {
+    width:15% !important;
+  }
+  .navbar{
+    transform: rotate(90deg);
+
+  }
+  .navbar-expand-lg .navbar-collapse {
+      display: flex !important;
+      transform: rotate(180deg);
+
+  }
+  .navbar-nav a{
+    transform: rotate(90deg);
+   
+    margin: auto;
+    
+
+  }
+  .navbar-nav {
+    align-items: self-start;
+  }
+  .navbar {
+  border: 2px solid rgba(240, 248, 255, 0.178);
+  background-color: transparent;
+  position: fixed;
+  bottom: 30px;
+  left: 43%;
+  /* transform: translateX(-50%); */
+  z-index: 1000;
+  border-radius: 30px;
+  backdrop-filter: blur(10px);
+}
+  
+}
+@media only screen and (min-width:601px) and (max-width:768px) {
+  nav {
+    width:10% !important;
+  }
+  .navbar{
+    transform: rotate(90deg);
+
+  }
+  .navbar-expand-lg .navbar-collapse {
+      display: flex !important;
+      transform: rotate(180deg);
+
+  }
+  .navbar-nav a{
+    transform: rotate(90deg);
+   
+    margin: auto;
+    
+
+  }
+  .navbar-nav {
+    align-items: self-start;
+  }
+  .navbar {
+  border: 2px solid rgba(240, 248, 255, 0.178);
+  background-color: transparent;
+  position: fixed;
+  bottom: 30px;
+  left: 43%;
+  /* transform: translateX(-50%); */
+  z-index: 1000;
+  border-radius: 30px;
+  backdrop-filter: blur(10px);
+}
+  
+}
+@media only screen and (min-width:769px) and (max-width:900px) {
+  nav {
+    width:10% !important;
+  }
+  .navbar{
+    transform: rotate(90deg);
+
+  }
+  .navbar-expand-lg .navbar-collapse {
+      display: flex !important;
+      transform: rotate(180deg);
+
+  }
+  .navbar-nav a{
+    transform: rotate(90deg);
+   
+    margin: auto;
+    
+
+  }
+  .navbar-nav {
+    align-items: self-start;
+  }
+  .navbar {
+  border: 2px solid rgba(240, 248, 255, 0.178);
+  background-color: transparent;
+  position: fixed;
+  bottom: 30px;
+  left: 43%;
+  /* transform: translateX(-50%); */
+  z-index: 1000;
+  border-radius: 30px;
+  backdrop-filter: blur(10px);
+}
+  
+}
+
+@media only screen and (min-width:901px) and (max-width:998px) {
+  nav {
+    width:7% !important;
+  }
+  .navbar{
+    transform: rotate(90deg);
+
+  }
+  .navbar-expand-lg .navbar-collapse {
+      display: flex !important;
+      transform: rotate(180deg);
+
+  }
+  .navbar-nav a{
+    transform: rotate(90deg);
+   
+    margin: auto;
+    
+
+  }
+  .navbar-nav {
+    align-items: self-start;
+  }
+  .navbar {
+  border: 2px solid rgba(240, 248, 255, 0.178);
+  background-color: transparent;
+  position: fixed;
+  bottom: 30px;
+  left: 43%;
+  /* transform: translateX(-50%); */
+  z-index: 1000;
+  border-radius: 30px;
+  backdrop-filter: blur(10px);
+}
+  
+}
+
+@media only screen and (min-width:990px) and (max-width:1222px) {
+  nav {
+    width:30% !important;
+  }
+  .navbar{
+    transform: rotate(180deg);
+
+  }
+  .navbar-expand-lg .navbar-collapse {
+      display: flex !important;
+      transform: rotate(180deg);
+
+  }
+  .navbar-nav a{
+    transform: rotate(-1deg);
+   
+    margin: auto;
+    
+
+  }
+  .navbar-nav {
+    align-items: self-start;
+  }
+  .navbar {
+  border: 2px solid rgba(240, 248, 255, 0.178);
+  background-color: transparent;
+  position: fixed;
+  bottom: 30px;
+  left: 38%;
+  /* transform: translateX(50%); */
+  z-index: 1000;
+  border-radius: 30px;
+  backdrop-filter: blur(10px);
+}
+  
+}

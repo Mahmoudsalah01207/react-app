@@ -1,0 +1,160 @@
+@import url(  "https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+.container {
+  max-width: 540px; /* For sm screens */
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 720px; /* For md screens */
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 960px; /* For lg screens */
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 1140px; /* For xl screens */
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1250px; /* For xxl screens */
+  }
+}
+  .my-name{
+    padding-top: 50px;
+  }
+  h2 ,h3 ,button{
+    font-family: "Poppins", sans-serif;
+    font-size:16px;
+    line-height: 22.6px;
+
+  }
+
+   button{
+    font-family: "Poppins", sans-serif !important;
+    font-weight:500 ;
+    font-size:20px !important;
+    line-height: 22.6px;
+   }
+  .my-name h2 {
+    font-family: "Poppins", sans-serif;
+    margin-top: 20px;
+    font-size:15px;
+    line-height: 22.6px;
+    padding-top: 50px;
+  }
+  .my-name h1 {
+    font-size: 40px;
+  }
+  .my-name h1 ,h2{
+    color: white;
+    font-family: "Poppins", sans-serif;
+
+  }
+
+  .img {
+    width: 100%;
+    border-top-right-radius: 60%;
+    border-top-left-radius: 60%;
+
+  }
+.img img {
+  margin: auto;
+  width: 40%;
+  object-fit: cover; /* Ensure the image covers the container */
+  object-position: top; /* Position the image at the top of the container */
+  border-top-right-radius: 60%;
+  border-top-left-radius: 60%;
+}
+ 
+  .social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px; /* Adjust the gap between icons */
+    padding: 20px;
+    flex-direction: column;
+    width: 10%;
+  }
+  
+  .social-icon-item {
+    font-size: 24px; /* Adjust the icon size */
+    color: rgb(76, 151, 215); /* Adjust the icon color */
+    transition: color 0.3s ease;
+  }
+   .my-name button {
+    width: 13%;
+    padding: 10px;
+    height: 6vh;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+ 
+ .my-name h3 {
+    color: rgba(255, 255, 255, 0.644);
+  }
+   h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    line-height: 40px;
+    color: rgb(92, 182, 254);
+  }
+  .Scroll {
+    width: 10%;
+    display: flex;
+    justify-items: center; /* Center horizontally */
+    align-items:center; /* Center vertically */
+  }
+  
+  a.bg-denger {
+    display: inline-block; /* Required for transform to work */
+    transform: rotate(90deg); /* Rotate 90 degrees */
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .btn-1{
+    color: rgb(86, 86, 233);
+  }
+  h2{
+    color: rgb(163, 163, 174);
+  }
+ 
+
+  @media only screen and (min-width: 452px)and (max-width: 530px) {
+
+  
+    .my-name button {
+      width: 35% !important;
+      padding: 10px;
+      height: 10vh;
+      margin-top: 30px;
+      margin-bottom: 50px;
+    }
+  
+  
+  }
+
+  @media only screen and (min-width: 531px)and (max-width: 1200px) {
+
+  
+    .my-name button {
+      width: 30% !important;
+      padding: 10px;
+      height: 7vh;
+      margin-top: 30px;
+      margin-bottom: 50px;
+    }
+  
+  
+  }
+  
+ 

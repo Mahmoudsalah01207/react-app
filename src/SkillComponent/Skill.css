@@ -1,0 +1,132 @@
+.skill {
+  background-color: #2a2c6b;
+  border-radius: 50px;
+  padding: 20px;
+  /* margin:20px; */
+  /* margin-left: 40px; */
+
+
+}
+.skill:hover {
+  
+    background-color: transparent;
+    border: #0f86ca solid 1px;
+transition: 0.5s;
+  }
+
+.skill h2 {
+  font-family: "Poppins", sans-serif !important;
+
+color: #02b2f9;
+font-size: 25px;
+font-weight: 400;
+margin: 0;
+}
+.skill p {
+      color: rgba(255, 255, 255, 0.644);
+      margin: 0;
+      padding-bottom: 40px;
+      line-height: 22px;
+}
+
+  
+.skill h1 {
+  color: white;
+  line-height: 22px;
+  margin-bottom: 10px;
+
+}
+
+@media only screen and (max-width: 571px) {
+  .col .col-md-5{
+    flex: 0 0 48.333333%;
+    max-width: 48.333333%;
+ }
+ .row .col-sm-10 {
+  flex: 0 0 95.333333%;
+max-width: 95.333333%;
+margin:   20px auto;
+
+ }
+
+}
+
+
+@media only screen and (max-width:768px)  {
+  
+  .col .col-md-5{
+    flex: 0 0 48.333333%;
+    max-width: 48.333333%;
+ }
+ .row .col-sm-10 {
+  flex: 0 0 80.333333%;
+max-width: 80.333333%;
+margin:   20px auto;
+
+ }
+
+}
+@media only screen and (min-width:768px) and (max-width: 990)   {
+  
+  .col .col-md-5{
+    flex: 0 0 48.333333%;
+    max-width: 48.333333%;
+ }
+  .ex.row .col-sm-10 {
+  flex: 0 0 80.333333%;
+max-width: 80.333333%;
+margin:   20px auto;
+
+ }
+
+}
+
+@media only screen and (min-width: 992px)and (max-width: 1100px) {
+
+  
+  .col .col-md-5{
+    flex: 0 0 40.333333%;
+    max-width: 40.333333%;
+ }
+ .ex.row .col-sm-10 {
+  flex: 0 0 60.333333%;
+max-width:70.333333%;
+margin:   20px auto;
+
+ }
+
+
+}
+
+@media only screen and (min-width: 1101px)and (max-width: 1200px) {
+
+  
+  .col .col-md-5{
+    flex: 0 0 40.333333%;
+    max-width: 40.333333%;
+ }
+ .ex.row .col-sm-10 {
+  flex: 0 0 45.333333%;
+max-width:45.333333%;
+margin:   20px auto;
+
+ }
+
+
+}
+@media only screen and (min-width: 1209px)and (max-width: 1290px) {
+
+  
+  .col .col-md-5{
+    flex: 0 0 40.333333%;
+    max-width: 40.333333%;
+ }
+ .ex.row .col-sm-10 {
+  flex: 0 0 45.333333%;
+max-width:45.333333%;
+margin:   20px auto;
+
+ }
+
+
+}
